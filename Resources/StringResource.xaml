@@ -1,0 +1,15 @@
+﻿<ResourceDictionary x:Uid="ResourceDictionary_1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+    <sys:String x:Uid="sys:String_1" x:Key="MainWindowTitle">无冬之夜增强版存档修改器</sys:String>
+    <sys:String x:Uid="sys:String_2" x:Key="FileMenuHeader">文件</sys:String>
+    <sys:String x:Uid="sys:String_3" x:Key="HelpMenuHeader">帮助</sys:String>
+    <sys:String x:Uid="sys:String_4" x:Key="OpenFileHeader">打开</sys:String>
+    <sys:String x:Uid="sys:String_5" x:Key="CloseFileHeader">关闭</sys:String>
+    <sys:String x:Uid="sys:String_6" x:Key="SaveFileHeader">保存</sys:String>
+    <sys:String x:Uid="sys:String_7" x:Key="SaveAsFileHeader">另存为</sys:String>
+    <sys:String x:Uid="sys:String_8" x:Key="LangHeader">语言</sys:String>
+    <sys:String x:Uid="sys:String_9" x:Key="AboutHeader">关于</sys:String>
+    <sys:String x:Uid="sys:String_10" x:Key="FeatTabHeader">专长</sys:String>
+    <sys:String x:Uid="sys:String_11" x:Key="SpellTabHeader">法术</sys:String>
+</ResourceDictionary>

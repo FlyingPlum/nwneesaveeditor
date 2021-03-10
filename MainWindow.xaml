@@ -1,0 +1,42 @@
+﻿<Window x:Uid="Window_1" x:Class="nwneesaveeditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:nwneesaveeditor"
+        mc:Ignorable="d"
+        Title="MainWindowTitle" Height="450" Width="800"
+        Icon="Resources\Images\Editor.ico">
+    <Window.Resources>
+        <ResourceDictionary x:Uid="ResourceDictionary_1">
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary x:Uid="ResourceDictionary_2" Source="Resources/StringResource.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid x:Uid="Grid_1">
+        <Menu x:Uid="mainmenu" x:Name="mainmenu" VerticalAlignment="Top" Height="20">
+            <MenuItem x:Uid="filemenu" x:Name="filemenu" Header="FileMenuHeader" FontSize="15" HorizontalAlignment="Left" Margin="2,0,0,0">
+                <MenuItem x:Uid="openfile" x:Name="openfile" Header="OpenFileHeader" FontSize="13" HorizontalAlignment="Left" Margin="1,0,0,0"/>
+                <MenuItem x:Uid="closefile" x:Name="closefile" Header="CloseFileHeader" FontSize="13" HorizontalAlignment="Left" Margin="1,0,0,0"/>
+                <Separator x:Uid="Separator_1"/>
+                <MenuItem x:Uid="savefile" x:Name="savefile" Header="SaveFileHeader" FontSize="13" HorizontalAlignment="Left" Margin="1,0,0,0"/>
+                <MenuItem x:Uid="saveasfile" x:Name="saveasfile" Header="SaveAsFileHeader" FontSize="13" HorizontalAlignment="Left" Margin="1,0,0,0"/>
+            </MenuItem>
+            <MenuItem x:Uid="helpmenu" x:Name="helpmenu" Header="HelpMenuHeader" FontSize="15" HorizontalAlignment="Left" Margin="2,0,0,0">
+                <MenuItem x:Uid="lang" x:Name="lang" Header="LangHeader" FontSize="13" HorizontalAlignment="Left" Margin="1,0,0,0"/>
+                <Separator x:Uid="Separator_2"/>
+                <MenuItem x:Uid="about" x:Name="about" Header="AboutHeader" FontSize="13" HorizontalAlignment="Left" Margin="1,0,0,0"/>
+            </MenuItem>
+        </Menu>
+        <StatusBar  x:Uid="statusbar" x:Name="statusbar" Width="800" VerticalAlignment="Top" Height="12" Margin="0,363,0,0"/>
+        <TabControl x:Uid="tabControl" x:Name="tabControl" Margin="4,24,4,16">
+            <TabItem x:Uid="TabItem_1" x:Name="feattab" Header="FeatTabHeader">
+                <Grid x:Uid="Grid_2" Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem x:Uid="TabItem_2" x:Name="spelltab" Header="SpellTabHeader">
+                <Grid x:Uid="Grid_3" Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <PackageIcon></PackageIcon>
+    <ApplicationIcon>Resources\Images\Editor.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Images\CloseDocument_16x.png" />
+    <None Remove="Resources\Images\Editor.ico" />
+    <None Remove="Resources\Images\LanguagePackageApplication_16x.png" />
+    <None Remove="Resources\Images\OpenFile_16x.png" />
+    <None Remove="Resources\Images\SaveAs_16x.png" />
+    <None Remove="Resources\Images\Save_16x.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\CloseDocument_16x.png" />
+    <Resource Include="Resources\Images\Editor.ico" />
+    <Resource Include="Resources\Images\LanguagePackageApplication_16x.png" />
+    <Resource Include="Resources\Images\OpenFile_16x.png" />
+    <Resource Include="Resources\Images\SaveAs_16x.png" />
+    <Resource Include="Resources\Images\Save_16x.png" />
+  </ItemGroup>
+  
+</Project>
